@@ -74,7 +74,7 @@ q_active = (abs(q)>=0.1);
 find(q_active)'
 A_vec
 
-L2_error = norm((J(q) + g(q))-(J(omega) + g(omega)),2)
+L2_error = norm((g(q)-h(q))-(g(omega)-h(omega)),2)
 relative_error = norm(omega-q,2)/norm(omega,2)
 
 figure;
