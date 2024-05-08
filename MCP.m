@@ -47,10 +47,9 @@ for k = 1:max_iter
             q >= 0;
     cvx_end
 
-    if norm((g(q)-h(q))-(g(q_pre)-h(q_pre)),2) < tol || norm((g(q)-h(q))-(g(q_pre2)-h(q_pre2)),2) < tol
+    if norm((g(q)-h(q))-(g(q_pre)-h(q_pre)),2) < tol
         break;
     end
-    q_pre2 = q_pre;
     q_pre = q;
 end
 toc
