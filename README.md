@@ -1,5 +1,9 @@
 # topology-estimation-mcp
-Test code for network topology estimation with $`\ell^1`$ norm and MCP
+This repository includes simulation code for network topology estimation with $`\ell^1`$ norm and MCP
+
+[Paper]  
+F. Matsuzaki and T. Ikeda, "[Sparse topology estimation for consensus network systems via minimax concave penalty](https://ieeexplore.ieee.org/document/10542337)," _IEEE Control Systems Letters (L-CSS)_, vol. 8, pp. 1012–1017, 2024.
+
 
 ## Description
 ### DataGenerate.m
